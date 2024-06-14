@@ -1,0 +1,84 @@
+.banner-content {
+    backdrop-filter: blur(10px);
+    background: rgba(12, 17, 31, .25);
+    border-radius: 8px;
+    list-style: none;
+    padding-top: 10px;
+    position: relative;
+    padding: 5px 20px;
+    z-index: 100;
+    color: #fff;
+    font-size: 14px;
+    z-index: 0;
+    font-weight: 500;
+}
+
+.banner-content a:hover {
+    transition: .5s;
+    color: #29A2FF;
+}
+
+.banner-content-left {
+    top: 70px;
+    position: absolute;
+    left: auto;
+    padding: 1rem;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #e0e7ee;
+}
+.recommend {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-item:hover {
+    color: #29A2FF;
+    cursor: pointer;
+}
+
+.recommend-item>div {
+    font-weight: 300;
+    display: flex;
+    gap: 20px;
+}
+
+.ract {
+    gap: 20px;
+    display: flex;
+
+}
+
+.rece>div {
+    flex: 1;
+}
+
+.national {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.notional-item {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 250px;
+}
+
+.notional-item:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 6px #ccc;
+    color: #29A2FF;
+}
+
+.local {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
